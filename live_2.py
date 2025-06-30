@@ -27,8 +27,14 @@ split_line = 20  # 줄 기준
 
 # 이전 프레임 저장용
 prev_bottom = None
+<<<<<<< HEAD
 cnt = 0
 print("📡 Streaming... Press 'q' to quit, 'c' to capture")
+=======
+
+print("📡 Streaming... Press 'q' to quit, 'c' to capture")
+cnt = 80
+>>>>>>> facc6f2 (first)
 while True:
     try:
         # 프레임 수신
